@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Order Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md">
+    <div class="container mx-auto flex items-center justify-between p-4">
+      <h1 class="text-2xl font-bold text-red-500">Foodiess</h1>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-cover bg-center h-screen" style="background-image: url('https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/2021-06/Food-delivery.jpg');">
+    <div class="bg-black bg-opacity-50 h-full flex flex-col items-center justify-center text-center text-white px-4">
+      <h2 class="text-5xl font-extrabold mb-4">Delicious Food Delivered to Your Doorstep</h2>
+      <p class="text-xl mb-6">Choose from a wide range of cuisines and enjoy hassle-free ordering.</p>
+      <a href="#menu" class="bg-red-500 px-6 py-3 rounded-lg shadow-md font-semibold hover:bg-red-600">Order Now</a>
+    </div>
+  </section>
+
+  <!-- Featured Dishes -->
+  <section id="menu" class="container mx-auto py-16">
+    <h3 class="text-4xl font-bold text-center mb-12">Dishes</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Dish 1 -->
+      <div class="bg-white shadow-md rounded-lg overflow-hidden">
+        <img src="https://junifoods.com/wp-content/uploads/2024/06/Easy-chicken-momo-recipe.jpg" alt="Momos" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h4 class="text-xl font-semibold mb-2">Momos</h4>
+          <p class="text-gray-600">Rs.90</p>
+          <button class="bg-red-500 text-white px-4 py-2 mt-4 rounded-lg hover:bg-red-600">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Dish 2 -->
+      <div class="bg-white shadow-md rounded-lg overflow-hidden">
+        <img src="https://imgmediagumlet.lbb.in/media/2023/02/63e39a8dc9ae884e143db091_1675860621236.jpg" alt="Pizza" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h4 class="text-xl font-semibold mb-2">Pizza</h4>
+          <p class="text-gray-600">Rs.120</p>
+          <button class="bg-red-500 text-white px-4 py-2 mt-4 rounded-lg hover:bg-red-600">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Dish 3 -->
+      <div class="bg-white shadow-md rounded-lg overflow-hidden">
+        <img src="https://insanelygoodrecipes.com/wp-content/uploads/2020/05/Burger-with-fries.png" alt="Burger" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h4 class="text-xl font-semibold mb-2">Burger</h4>
+          <p class="text-gray-600">Rs.130</p>
+          <button class="bg-red-500 text-white px-4 py-2 mt-4 rounded-lg hover:bg-red-600">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- About Us -->
+ <section id="about" class="bg-gray-100 py-16">
+    <div class="container mx-auto text-center">
+      <h3 class="text-4xl font-bold mb-8">About Us</h3>
+      <p class="text-lg text-gray-700">At Foodiess, we’re passionate about bringing the best dining experience right to your home. From traditional recipes to modern flavors, we have something for everyone!</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-400 py-8">
+    <div class="container mx-auto flex justify-between">
+      <p>© 2025 Foodiess. All rights reserved.</p>
+      <div class="space-x-4">
+        <a href="#" class="hover:text-white">Facebook</a>
+        <a href="#" class="hover:text-white">Twitter</a>
+        <a href="#" class="hover:text-white">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
